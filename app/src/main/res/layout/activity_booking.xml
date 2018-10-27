@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="16sp"
+        android:paddingLeft="16sp"
+        android:paddingRight="16sp"
+        android:weightSum="1" >
+        <EditText
+            android:id="@+id/bookTgl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:inputType="date"
+            android:backgroundTint="@color/colorAccent"
+            android:textColorHint="@color/colorMild"
+            android:hint="Tanggal" />
+        <EditText
+            android:id="@+id/bookJam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:inputType="time"
+            android:backgroundTint="@color/colorAccent"
+            android:textColorHint="@color/colorMild"
+            android:hint="Jam" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Layoutmaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/colorBlack"
+        android:textColorHint="@color/colorMild">
+
+        <EditText
+            android:id="@+id/bookPeta"
+            android:textIsSelectable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/picker"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="top"
+            android:hint="Alamat"
+            android:inputType="none"
+            android:lines="4"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textColorHint="@color/colorBlack"
+            android:textColorLink="@color/colorBlack" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/LayoutbookPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/colorBlack"
+        android:textColorHint="@color/colorMild">
+        <EditText
+            android:id="@+id/bookPesan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/picker"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="top"
+            android:hint="Pesan Khusus (cth: dekat masjid)"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textColorHint="@color/colorBlack"
+            android:textColorLink="@color/colorBlack" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/LayoutbookNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/colorBlack"
+        android:textColorHint="@color/colorMild">
+        <EditText
+            android:id="@+id/bookNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="Nama" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/LayoutbookTlp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/colorBlack"
+        android:textColorHint="@color/colorMild">
+
+        <EditText
+            android:id="@+id/bookTlp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="No. HP"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/pickerHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="16sp"
+        android:paddingRight="16sp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookPos"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight=".5"
+            android:text="Email"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/textHarga"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookPos"
+            android:layout_weight=".5"
+            android:text="harga rupiah"
+            android:layout_gravity="end"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorAccent"
+            android:textColorLink="@color/colorBlack" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pickerTombol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16sp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTotal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".5"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_navigate_before_white_24dp"
+            android:text="Batal" />
+
+        <Button
+            android:id="@+id/btnProses"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTotal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".5"
+            android:background="@color/colorPrimary"
+            android:drawableRight="@drawable/ic_navigate_next_white_24dp"
+            android:text="Process" />
+    </LinearLayout>
+
+</LinearLayout>

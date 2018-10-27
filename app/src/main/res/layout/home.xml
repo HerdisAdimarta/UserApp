@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:id="@+id/pickerTombolBooking1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingRight="16sp"
+        android:paddingLeft="16sp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnEngagement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTotal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight=".5"
+            android:drawableTop="@drawable/tunangan"
+            android:background= "@color/colorWhite"
+            android:text="Tunangan"/>
+
+        <Button
+            android:id="@+id/btnGraduation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTotal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight=".5"
+            android:drawableTop="@drawable/wisuda"
+            android:background="@color/colorWhite"
+            android:text="Wisuda"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pickerTombolBooking2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingRight="16sp"
+        android:paddingLeft="16sp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnBirthday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTotal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight=".5"
+            android:drawableTop="@drawable/ulangtahun"
+            android:background="@color/colorWhite"
+            android:text="Ulangtahun"/>
+
+        <Button
+            android:id="@+id/btnParty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTotal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight=".5"
+            android:drawableTop="@drawable/kondangan"
+            android:background="@color/colorWhite"
+            android:text="Pesta"/>
+    </LinearLayout>
+
+</LinearLayout>

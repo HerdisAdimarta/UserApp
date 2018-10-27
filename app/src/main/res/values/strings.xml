@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">User App</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_activity_daftar">DaftarActivity</string>
+    <string name="text_accounts">All Accounts</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_nama">Nama Lengkap</string>
+    <string name="hint_telepon">No. HP</string>
+    <string name="hint_password">Kata Sandi</string>
+    <string name="hint_confirm_password">Ulangi Kata Sandi</string>
+    <string name="hint_alamat">Alamat</string>
+    <string name="hint_message">Isi Pesan</string>
+
+    <string name="harga_engagement">Mulai dari Rp. 250.000,-</string>
+    <string name="harga_ultah">Mulai dari Rp. 150.000,-</string>
+    <string name="harga_graduation">Mulai dari Rp. 150.000,-</string>
+    <string name="harga_party">Mulai dari Rp. 150.000,-</string>
+
+    <string name="no_text"> </string>
+    <string name="text_login">Masuk</string>
+    <string name="text_register">Daftar</string>
+    <string name="text_not_member">Belum punya akun?  DAFTAR</string>
+    <string name="text_already_member">Sudah punya akun?  MASUK</string>
+
+    <string name="error_message_name">Field Name is required</string>
+    <string name="error_message_email">Field Email is required</string>
+    <string name="error_message_telepon">Field Phone is required</string>
+    <string name="error_message_password">Field Password is required</string>
+    <string name="error_email_exists">Email sudah ada</string>
+    <string name="error_password_match">Kata sandi tidak cukup</string>
+    <string name="error_valid_email_password">Email atau kata sandi salah. Coba lagi</string>
+    <string name="success_message">Registration Successful</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab1">Beranda</string>
+    <string name="tab2">Bantuan</string>
+    <string name="tab3">Akun Saya</string>
+
+    <string name="title_activity_nav_view">NavViewActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="email_admin">herdies.adimarta@student.unsil.ac.id</string>
+    <string name="hp_admin">0265 - xxxxx</string>
+    <string name="versi">Versi Beta 0.1</string>
+    <string name="menu_profile">Menu Profile</string>
+    <string name="menu_chat">Menu Chat</string>
+    <string name="menu_contact">Menu Contact</string>
+    <string name="menu_online">Menu Online</string>
+    <string name="menu_settings">Menu Setting</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="next">NEXT</string>
+    <string name="batal">BACK</string>
+    <string name="start">BOOK NOW</string>
+
+    <string name="action_example">Example action</string>
+</resources>
+

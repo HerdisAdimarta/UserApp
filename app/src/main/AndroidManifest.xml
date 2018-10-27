@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skripsi.herdiesadimarta.userapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBG9gc1g-YESaNLqM_TiKnZNPWuzsnso7s" />
+
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.DaftarActivity" />
+        <activity android:name=".activity.MainMenuActivity" />
+        <activity android:name=".tabs.Home" />
+        <activity android:name=".tabs.Info" />
+        <activity android:name=".tabs.Akun" />
+        <activity android:name=".into.TunanganActivity" />
+        <activity android:name=".booking.tunangan.Booking" />
+        <activity android:name=".booking.wisuda.Booking" />
+        <activity android:name=".booking.ultah.Booking" />
+        <activity android:name=".booking.pesta.Booking" />
+        <activity android:name=".into.WisudaActivity" />
+        <activity android:name=".into.PestaActivity" />
+        <activity android:name=".into.UltahActivity" />
+        <activity android:name=".agen.search.ListAgenTunangan" />
+        <activity android:name=".agen.search.ListAgenWisuda" />
+        <activity android:name=".agen.search.ListAgenUltah" />
+        <activity android:name=".agen.search.ListAgenPesta" />
+        <activity android:name=".booking.tunangan.Verifikasi"></activity>
+        <activity android:name=".booking.wisuda.Verifikasi"></activity>
+        <activity android:name=".booking.ultah.Verifikasi"></activity>
+        <activity android:name=".booking.pesta.Verifikasi"></activity>
+    </application>
+
+</manifest>

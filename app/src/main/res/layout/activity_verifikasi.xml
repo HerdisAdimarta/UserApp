@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDriver"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/prof_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/viewTanggal"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="35sp"
+            android:gravity="left"
+            android:text="Tanggal"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/viewAlamat"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/prof_section"
+            android:layout_alignStart="@+id/prof_section"
+            android:layout_below="@+id/prof_section"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="Alamat"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/viewPesan"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/prof_section"
+            android:layout_alignStart="@+id/prof_section"
+            android:layout_below="@+id/prof_section"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="Pesan Khusus"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/viewNama"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/prof_section"
+            android:layout_alignStart="@+id/prof_section"
+            android:layout_below="@+id/prof_section"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="Nama User"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/viewHp"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/prof_section"
+            android:layout_alignStart="@+id/prof_section"
+            android:layout_below="@+id/prof_section"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="Nomor Handphone"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/viewEmail"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/prof_section"
+            android:layout_alignStart="@+id/prof_section"
+            android:layout_below="@+id/prof_section"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="@string/no_text"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Total_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:layout_below="@+id/prof_section"
+        android:layout_marginTop="20sp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewTotal"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:gravity="right"
+            android:text="Total"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/prof_section"
+            android:layout_alignStart="@+id/prof_section"
+            android:layout_below="@+id/prof_section"
+            android:layout_marginLeft="285sp"
+            android:gravity="left"
+            android:text="@string/no_text"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:background="@color/colorPrimary"
+        android:text="Booking"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
